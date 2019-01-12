@@ -12,6 +12,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="myproject.Graber.models.GraphBoard" />
+          <option value="myproject.Graber.urls" />
+          <option value="myproject.myproject.urls.Graber" />
         </list>
       </option>
     </inspection_tool>

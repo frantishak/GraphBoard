@@ -1,9 +1,10 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 from .models import Card
+from .secret_date.auth import id_board, names_lists, id_list
 
 def index(request):
-    i = Card.name_card('RE0MJmeD')
+    Card.get_cards(id_list)
+    i = Card.objects.all()
 
     return HttpResponse(i)
 
